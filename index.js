@@ -40,7 +40,7 @@ function addNewTimer() {
                       <span></span>
                       <span>Timer is Up!</span>
                       <button class="btn delete-btn" onclick="deleteTimer(this)">Stop</button>
-                  `;
+                      `;
         audio.play();
         clearInterval(myTimerUpdate);
       } else {
